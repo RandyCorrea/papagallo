@@ -1,0 +1,885 @@
+<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
+
+# Página Web Móvil para Papá Gallo Bar
+
+He creado una página web optimizada para móviles basada en el menú del bar. La página mantiene la identidad visual del establecimiento con un diseño moderno y funcional.
+
+## Estructura HTML
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Papá Gallo Bar - Iquique</title>
+    <link href="https://fonts.googleapis.com/css2?family=Medula+One&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cloud+Loop&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">PAPÁ GALLO</h1>
+            <p class="subtitle">BAR</p>
+            <p class="social">@papagallo_iqq</p>
+        </div>
+    </header>
+
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-menu">
+                <li><a href="#cervezas">Cervezas</a></li>
+                <li><a href="#cocktails">Cocktails</a></li>
+                <li><a href="#destilados">Destilados</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#comida">Comida</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section id="cervezas" class="section">
+            <div class="container">
+                <h2 class="section-title">Cervezas</h2>
+                
+                <div class="category">
+                    <h3>Barril</h3>
+                    <div class="beer-table">
+                        <div class="beer-header">
+                            <span>Cerveza</span>
+                            <span>Schop</span>
+                            <span>Pitcher</span>
+                            <span>Rocket</span>
+                        </div>
+                        <div class="beer-row">
+                            <span>Cristal</span>
+                            <span>$4.000</span>
+                            <span>$9.000</span>
+                            <span>$18.000</span>
+                        </div>
+                        <div class="beer-row">
+                            <span>Becker</span>
+                            <span>$4.000</span>
+                            <span>$9.000</span>
+                            <span>$18.000</span>
+                        </div>
+                        <div class="beer-row">
+                            <span>Budweiser</span>
+                            <span>$4.500</span>
+                            <span>$11.000</span>
+                            <span>$22.000</span>
+                        </div>
+                        <div class="beer-row">
+                            <span>Stella Artois</span>
+                            <span>$4.500</span>
+                            <span>$11.000</span>
+                            <span>$22.000</span>
+                        </div>
+                        <div class="beer-row">
+                            <span>Heineken</span>
+                            <span>$4.500</span>
+                            <span>$11.000</span>
+                            <span>$22.000</span>
+                        </div>
+                        <div class="beer-row">
+                            <span>Austral Calafate</span>
+                            <span>$6.000</span>
+                            <span>$13.000</span>
+                            <span>$27.000</span>
+                        </div>
+                        <div class="beer-row">
+                            <span>Kunstmann Torobayo</span>
+                            <span>$6.000</span>
+                            <span>$13.000</span>
+                            <span>$27.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Botellines (355cc)</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Corona</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Sol</span>
+                            <span class="item-price">$3.200</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Austral Lager</span>
+                            <span class="item-price">$4.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Kunstmann Lager</span>
+                            <span class="item-price">$4.300</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Sin Alcohol</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Heineken 0</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Corona Cero</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Budweiser Zero</span>
+                            <span class="item-price">$3.500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cocktails" class="section">
+            <div class="container">
+                <h2 class="section-title">Cocktails</h2>
+                
+                <div class="category">
+                    <h3>Mojitos</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Mojito Tradicional</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mojito Sabores</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mojito Jägger</span>
+                            <span class="item-price">$7.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mojito Corona</span>
+                            <span class="item-price">$7.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mojito Tradicional (1L)</span>
+                            <span class="item-price">$10.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Coctelería Clásica</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Moscow Mule</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Cosmopolitan</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Piña Colada</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Caipiriña</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Margarita</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Pisco Sour</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Gin</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Summer Gin</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Tropical Gin</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Tom Collins</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Gin 97</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="destilados" class="section">
+            <div class="container">
+                <h2 class="section-title">Destilados</h2>
+                
+                <div class="category">
+                    <h3>Pisco</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Mistral 35°</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mistral 40°</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Alto del Carmen 35°</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Horcón Quemado 1 año</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Whiskey</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Jack Daniels No.7</span>
+                            <span class="item-price">$7.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Johnnie Walker Red</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Johnnie Walker Black</span>
+                            <span class="item-price">$10.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Chivas 12 años</span>
+                            <span class="item-price">$8.500</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Vodka</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Stolichnaya</span>
+                            <span class="item-price">$5.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Absolut</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Absolut Variedades</span>
+                            <span class="item-price">$6.500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="promociones" class="section">
+            <div class="container">
+                <h2 class="section-title">Promociones</h2>
+                
+                <div class="promo-card">
+                    <h3>Vaso Papá Gallo - $3.000</h3>
+                    <p>Compra tu vaso Papá Gallo (500cc) y obtén refill con precios preferentes hasta las 01:00</p>
+                    <div class="refill-list">
+                        <div class="refill-item">
+                            <span>Recarga Becker</span>
+                            <span>$2.000</span>
+                        </div>
+                        <div class="refill-item">
+                            <span>Recarga Stella Artois</span>
+                            <span>$3.000</span>
+                        </div>
+                        <div class="refill-item">
+                            <span>Recarga Mojito</span>
+                            <span>$4.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Happy Hours - Hasta las 22:00</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Schop Becker</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Mojito Tradicional</span>
+                            <span class="item-price">$8.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Pisco Sour</span>
+                            <span class="item-price">$9.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Summer Gin</span>
+                            <span class="item-price">$9.000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="comida" class="section">
+            <div class="container">
+                <h2 class="section-title">¿Con Hambre?</h2>
+                
+                <div class="category">
+                    <h3>Papas Fritas</h3>
+                    <div class="food-table">
+                        <div class="food-header">
+                            <span>Plato</span>
+                            <span>Individual</span>
+                            <span>Doble</span>
+                            <span>Triple</span>
+                        </div>
+                        <div class="food-row">
+                            <span>Papas Fritas</span>
+                            <span>$5.000</span>
+                            <span>$9.000</span>
+                            <span>$12.000</span>
+                        </div>
+                        <div class="food-row">
+                            <span>Papas Queso</span>
+                            <span>$6.000</span>
+                            <span>$11.000</span>
+                            <span>$15.000</span>
+                        </div>
+                        <div class="food-row">
+                            <span>Pichanga</span>
+                            <span>$8.000</span>
+                            <span>$15.000</span>
+                            <span>$21.000</span>
+                        </div>
+                        <div class="food-row">
+                            <span>Papas Gallo</span>
+                            <span>$8.000</span>
+                            <span>$15.000</span>
+                            <span>$21.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Empanadas</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Queso Solo</span>
+                            <span class="item-price">$5.500</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Pollo Queso</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Carne Queso</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Papanada</span>
+                            <span class="item-price">$6.000</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category">
+                    <h3>Alitas</h3>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <span class="item-name">Broaster (6 unidades)</span>
+                            <span class="item-price">$7.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">BBQ (6 unidades)</span>
+                            <span class="item-price">$7.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Spicy (6 unidades)</span>
+                            <span class="item-price">$7.000</span>
+                        </div>
+                        <div class="menu-item">
+                            <span class="item-name">Alitas Mixtas</span>
+                            <span class="item-price">$10.500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Papá Gallo Bar - Iquique</p>
+            <p>Síguenos en Instagram: @papagallo_iqq</p>
+        </div>
+    </footer>
+</body>
+</html>
+```
+
+
+## Estilos CSS
+
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #1a1a1a;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background: linear-gradient(135deg, #2c2c2c 0%, #1a1a1a 100%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    font-family: 'Medula One', cursive;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #ff6b35;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.subtitle {
+    font-family: 'Cloud Loop', cursive;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.social {
+    font-size: 0.9rem;
+    color: #ccc;
+    font-style: italic;
+}
+
+/* Navigation */
+.nav {
+    background-color: #ff6b35;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.nav-menu li {
+    margin: 0;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(255,255,255,0.2);
+    transform: translateY(-2px);
+}
+
+/* Main Content */
+.main {
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.section {
+    padding: 40px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.section:last-child {
+    border-bottom: none;
+}
+
+.section-title {
+    font-family: 'Medula One', cursive;
+    font-size: 2rem;
+    color: #ff6b35;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Categories */
+.category {
+    margin-bottom: 40px;
+}
+
+.category h3 {
+    font-family: 'Cloud Loop', cursive;
+    font-size: 1.3rem;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ff6b35;
+}
+
+/* Menu Items */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.item-name {
+    font-weight: 500;
+    color: #333;
+    flex: 1;
+}
+
+.item-price {
+    font-weight: 700;
+    color: #ff6b35;
+    font-size: 1.1rem;
+}
+
+/* Beer Table */
+.beer-table {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.beer-header {
+    background: #ff6b35;
+    color: #fff;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.beer-row {
+    padding: 12px 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+.beer-row:hover {
+    background-color: #f8f8f8;
+}
+
+.beer-row:last-child {
+    border-bottom: none;
+}
+
+/* Food Table */
+.food-table {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+}
+
+.food-header {
+    background: #ff6b35;
+    color: #fff;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    font-weight: 700;
+}
+
+.food-row {
+    padding: 12px 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 10px;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.3s ease;
+}
+
+.food-row:hover {
+    background-color: #f8f8f8;
+}
+
+.food-row:last-child {
+    border-bottom: none;
+}
+
+/* Promo Cards */
+.promo-card {
+    background: linear-gradient(135deg, #ff6b35 0%, #ff8c42 100%);
+    color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 20px rgba(255,107,53,0.3);
+}
+
+.promo-card h3 {
+    font-family: 'Cloud Loop', cursive;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.promo-card p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.refill-list {
+    display: grid;
+    gap: 10px;
+}
+
+.refill-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255,255,255,0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+    backdrop-filter: blur(5px);
+}
+
+/* Footer */
+.footer {
+    background-color: #2c2c2c;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer p {
+    margin-bottom: 5px;
+}
+
+/* Mobile Optimization */
+@media (max-width: 768px) {
+    .logo {
+        font-size: 2rem;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .nav-menu a {
+        padding: 10px 20px;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .beer-header,
+    .beer-row {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .beer-header span,
+    .beer-row span {
+        padding: 5px 0;
+    }
+    
+    .food-header,
+    .food-row {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .food-header span,
+    .food-row span {
+        padding: 5px 0;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.8rem;
+    }
+    
+    .section {
+        padding: 30px 0;
+    }
+    
+    .category h3 {
+        font-size: 1.2rem;
+    }
+    
+    .menu-item {
+        padding: 12px;
+    }
+    
+    .item-name {
+        font-size: 0.9rem;
+    }
+    
+    .item-price {
+        font-size: 1rem;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff6b35;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e55a2b;
+}
+```
+
+
+## Características Principales
+
+### **Diseño Responsivo**
+
+- Optimización completa para dispositivos móviles
+- Navegación táctil intuitiva
+- Tablas que se adaptan a pantallas pequeñas
+- Grids flexibles que se reorganizan según el tamaño de pantalla
+
+
+### **Tipografías Implementadas**
+
+- **Medula One**: Utilizada para el logo y títulos principales
+- **Cloud Loop**: Para subtítulos y nombres de categorías
+- **Roboto**: Para el texto general y precios
+
+
+### **Identidad Visual**
+
+- Colores coherentes con la estética del bar (naranja \#ff6b35, grises oscuros)
+- Gradientes y sombras que dan profundidad
+- Efectos hover para mejor interactividad
+- Animaciones suaves para mejorar la experiencia
+
+
+### **Funcionalidades Móviles**
+
+- Navegación sticky que permanece visible
+- Menú colapsable en pantallas pequeñas
+- Tablas que se transforman en listas verticales
+- Optimización de touch targets para dedos
+
+
+### **Secciones Organizadas**
+
+- **Cervezas**: Barril, botellines y sin alcohol
+- **Cocktails**: Mojitos, clásicos y gin
+- **Destilados**: Pisco, whiskey, vodka organizados
+- **Promociones**: Happy hours y ofertas especiales
+- **Comida**: Papas, empanadas y alitas
+
+La página web mantiene la identidad visual del bar mientras proporciona una experiencia de navegación fluida y optimizada para móviles, facilitando a los clientes consultar el menú desde sus dispositivos.
+
+<div style="text-align: center">⁂</div>
+
+[^1]: Menu-PAPAGALLO2.pdf
+
